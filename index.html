@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>EarnNest — Learn • Create • Earn</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Inter,Arial,sans-serif;background:#fff9f3;color:#19131f}
+nav{height:72px;display:flex;justify-content:space-between;align-items:center;padding:0 7%;background:#fff}
+.logo{font-size:25px;font-weight:900}.logo span{color:#ff6b35}
+.nav{padding:10px 18px;border-radius:25px;background:#19131f;color:#fff;font-size:14px}
+.hero{padding:55px 7%;display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center;background:linear-gradient(135deg,#fff2df,#fff9f3)}
+.badge{display:inline-block;background:#ffe0d2;color:#e94b21;padding:8px 13px;border-radius:20px;font-weight:800;font-size:12px}
+h1{font-size:55px;line-height:1.02;margin:18px 0 15px;letter-spacing:-2px}
+.hero p{font-size:18px;color:#655c66;max-width:560px}
+.btn{display:inline-block;margin-top:15px;padding:15px 23px;background:#ff5a36;color:#fff;border-radius:12px;font-weight:800}
+.bookwrap{display:flex;justify-content:center}
+.book{width:310px;min-height:410px;border-radius:10px;padding:28px;position:relative;overflow:hidden;color:white;box-shadow:0 25px 55px #8b5b2633;background:linear-gradient(150deg,#ff4d6d 0%,#ff8a3d 42%,#7b2cff 100%)}
+.book:before,.book:after{content:"";position:absolute;border-radius:50%;opacity:.3}
+.book:before{width:210px;height:210px;background:#ffd84d;right:-90px;top:-60px}
+.book:after{width:190px;height:190px;background:#39e6c3;left:-100px;bottom:-70px}
+.book small{position:relative;font-weight:900;letter-spacing:2px}
+.book h2{position:relative;font-size:39px;line-height:1.02;margin-top:55px}
+.book .line{position:relative;width:65px;height:5px;background:white;border-radius:5px;margin:20px 0}
+.book .mini{position:relative;font-size:14px;font-weight:700;max-width:210px}
+.price{position:absolute;right:22px;bottom:20px;background:#fff;color:#ff4d38;border-radius:50%;width:68px;height:68px;display:grid;place-items:center;font-weight:900}
+.section{padding:70px 7%}.center{text-align:center}.eyebrow{color:#ff5a36;font-size:12px;font-weight:900;letter-spacing:2px}.title{font-size:38px;margin:8px 0 35px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.feature{padding:26px;border-radius:20px;background:#fff;border:1px solid #eee2d8}.icon{font-size:28px}.feature h3{margin:10px 0 6px}.feature p{color:#706873}
+.buy{background:linear-gradient(135deg,#24112f,#7b2cff);color:white;border-radius:28px;padding:45px;text-align:center}.buy .pricebig{font-size:36px;font-weight:900;margin:12px}.buy a{background:#ffd84d;color:#24112f;padding:15px 26px;border-radius:12px;font-weight:900;display:inline-block}
+.faq{max-width:750px;margin:auto}.faq details{background:#fff;border:1px solid #eadfd6;padding:17px 20px;border-radius:14px;margin:10px 0}.faq summary{font-weight:800}
+footer{text-align:center;padding:30px;color:#756c75;border-top:1px solid #eadfd6}
+@media(max-width:760px){.hero{grid-template-columns:1fr;padding:45px 5%}.hero h1{font-size:43px}.book{width:280px;min-height:370px}.grid{grid-template-columns:1fr}.section{padding:55px 5%}}
+</style>
+</head>
+<body>
+<nav><div class="logo">Earn<span>Nest</span></div><a class="nav" href="#ebook">Get Ebook</a></nav>
+
+<section class="hero">
+<div>
+<span class="badge">YOUR DIGITAL INCOME STARTER GUIDE</span>
+<h1>Learn. Create. <span style="color:#ff5a36">Earn.</span></h1>
+<p>A colorful, beginner-friendly digital guide packed with practical ideas you can explore from home using your phone.</p>
+<a class="btn" href="#ebook">Explore the Ebook →</a>
+</div>
+<div class="bookwrap">
+<div class="book">
+<small>EARNNEST</small>
+<h2>50 SIMPLE<br>WAYS TO<br>EARN FROM<br>HOME</h2>
+<div class="line"></div><div class="mini">Beginner-friendly ideas to start exploring online income.</div>
+<div class="price">₹69</div>
+</div>
+</div>
+</section>
+
+<section class="section">
+<div class="center"><div class="eyebrow">WHAT'S INSIDE</div><div class="title">More than just a list of ideas.</div></div>
+<div class="grid">
+<div class="feature"><div class="icon">💡</div><h3>50 Practical Ideas</h3><p>Discover different beginner-friendly online income opportunities.</p></div>
+<div class="feature"><div class="icon">📱</div><h3>Phone-Friendly</h3><p>Focus on ideas that can be started or explored using a smartphone.</p></div>
+<div class="feature"><div class="icon">🚀</div><h3>First-Step Guidance</h3><p>Understand what to do first instead of feeling stuck after reading.</p></div>
+</div>
+</section>
+
+<section class="section" id="ebook">
+<div class="buy">
+<div class="eyebrow" style="color:#ffd84d">FEATURED EBOOK</div>
+<h2>50 Simple Ways to Earn From Home</h2>
+<p>Learn about practical digital income ideas in one easy-to-follow guide.</p>
+<div class="pricebig">₹69</div>
+<a href="#" onclick="alert('Payment link will be connected after the ebook is finalized.');return false;">BUY NOW — ₹69</a>
+</div>
+</section>
+
+<section class="section">
+<div class="center"><div class="eyebrow">WHY EARNNEST</div><div class="title">Made to feel simple.</div></div>
+<div class="grid">
+<div class="feature"><div class="icon">✨</div><h3>Simple Language</h3><p>Clear explanations without unnecessary complicated terms.</p></div>
+<div class="feature"><div class="icon">🎯</div><h3>Action Focused</h3><p>Each idea is designed to give you a practical starting point.</p></div>
+<div class="feature"><div class="icon">🌱</div><h3>Beginner Friendly</h3><p>Created for people who are just starting their digital journey.</p></div>
+</div>
+</section>
+
+<section class="section faq">
+<div class="center"><div class="eyebrow">FAQ</div><div class="title">Common questions</div></div>
+<details><summary>Is this for complete beginners?</summary><p>Yes. The guide is planned for beginners and explains ideas in simple terms.</p></details>
+<details><summary>Can I use my phone?</summary><p>Many of the ideas are designed around smartphone-friendly tools and platforms.</p></details>
+<details><summary>How will I receive the ebook?</summary><p>Automatic digital delivery will be connected after payment setup is finalized.</p></details>
+</section>
+<footer>© 2026 EarnNest • Learn • Create • Earn</footer>
+</body>
+</html>
